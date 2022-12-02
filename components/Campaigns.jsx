@@ -8,7 +8,7 @@ const CampaignItem = () => {
       <div className="relative md:w-44 md:h-44 w-36 h-36 after:content-['']   border-[5px] border-primary rounded-full overflow-hidden">
         <Image
           src="/images/o1.jpg"
-          alt=""
+          alt="foto"
           layout="fill"
           className="hover:scale-105 transition-all"
           objectFit="cover"

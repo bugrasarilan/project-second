@@ -1,7 +1,7 @@
 import React from "react";
 import Campaigns from "../../components/Campaigns";
 import Carousel from "../../components/Carousel";
-import Categorywrapper from "../../components/categorys/categorywrapper";
+import Categorywrapper from "../../components/categorys/Categorywrapper";
 
 const Index = () => {
   return <div>
