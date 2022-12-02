@@ -9,12 +9,12 @@ const Header = () => {
   const [isSearchmodal, setIsSearchmodal] = useState(false);
   const [isMenuModal, setIsMenuModal] = useState(false);
   return (
-    <div className="h-[5.5rem] bg-secondary ">
+    <div className="h-[5.5rem] z-50 relative w-full bg-secondary ">
       <div className="container mx-auto text-white flex justify-between items-center h-full">
         <Logo />
         <nav
-          className={`sm:static absolute top-0 left-0 sm:w-auto sm:h-auto w-full h-screen sm:text-white text-black sm:bg-transparent bg-white sm:flex hidden z-50  ${
-            isMenuModal === true && "!grid place-content-center"
+          className={`sm:static absolute top-0 right-0     sm:w-auto sm:h-auto w-50 h-screen sm:text-white text-black sm:bg-transparent bg-white sm:flex hidden z-50  ${
+            isMenuModal === true && "!grid place-content-center opacity-90  bg-slate-200 hover:bg-slate-400"
           }`}
         >
           <ul className="flex gap-x-2 sm:flex-row flex-col items-center">

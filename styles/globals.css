@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 html,
 body {
   padding: 0;
@@ -18,5 +19,14 @@ body {
   @apply text-white px-[30px] py-[8px] rounded-3xl bg-primary cursor-pointer hover:opacity-70 transition-all disabled:opacity-50 disabled:cursor-not-allowed;
 }
 
+.carousel {
+  @apply flex justify-center;
+}
+.control-arrow  {
+  @apply h-96;
+}
 
+.control-dots  {
+  @apply h-40;
+}
 
