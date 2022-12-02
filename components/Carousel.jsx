@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Slider from "react-slick";
 import { Carousel } from 'react-responsive-carousel';
-import { Link } from "react-router-dom";
+
 
 const Carousels = () => {
 
