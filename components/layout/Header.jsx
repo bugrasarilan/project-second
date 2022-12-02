@@ -52,15 +52,19 @@ const Header = () => {
           <button onClick={() => setIsSearchmodal(true)}>
             <FaSearch className="hover:text-primary transition-all" />
           </button>
-          <a href="#" className="md:inline-block hidden sm">
-            <button className="btn-primary"> Online Sipariş</button>
-          </a>
+
           <button
             className="sm:hidden inline-block"
             onClick={() => setIsMenuModal(true)}
           >
-            <GiHamburgerMenu className="text-xl hover:text-primary transition-all" />
+            <GiHamburgerMenu className="text-xl hover:text-primary transition-all mr-2" />
           </button>
+
+
+          <a href="#" className="md:inline-block  ">
+            <button className="btn-primary"> Online Sipariş</button>
+          </a>
+       
      
         </div>
       </div>

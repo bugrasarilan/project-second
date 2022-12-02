@@ -2,20 +2,21 @@ import React from "react";
 import Image from "next/image";
 import Slider from "react-slick";
 import { Carousel } from 'react-responsive-carousel';
+import { Link } from "react-router-dom";
 
 const Carousels = () => {
 
 
   return (
     <div>   
-    <Carousel infiniteLoop autoPlay> 
 
-     
+    <Carousel infiniteLoop autoPlay> 
+<a href> 
  <div className="h-screen w-full   ">
  <div className="relative">
  <div className="absolute top-22 left-0 right-0  h-[550px]  w-full  max-sm:w-auto  max-sm:h-[144px] max-lg:w-auto  max-lg:h-[300px] max-xl:w-full  max-xl:h-[400px]    ">
  <div className="relative h-full w-full  ">
-   <Image
+ <Image 
        src="/images/1-Alize-süperlanamaxi.jpg"
        alt=""
        layout="fill"
@@ -25,7 +26,9 @@ const Carousels = () => {
 </div>
  </div>
 </div>
+</a>
 
+<a href> 
  <div className="h-screen w-full   ">
  <div className="relative">
  <div className="absolute top-22 left-0 right-0  h-[550px]  w-full  max-sm:w-auto  max-sm:h-[144px] max-lg:w-auto  max-lg:h-[300px] max-xl:w-full  max-xl:h-[400px]    ">
@@ -40,7 +43,9 @@ const Carousels = () => {
 </div>
  </div>
 </div>
+</a>
 
+<a href> 
  <div className="h-screen w-full   ">
  <div className="relative">
  <div className="absolute top-22 left-0 right-0  h-[550px]  w-full  max-sm:w-auto  max-sm:h-[144px] max-lg:w-auto  max-lg:h-[300px] max-xl:w-full  max-xl:h-[400px]    ">
@@ -55,7 +60,9 @@ const Carousels = () => {
 </div>
  </div>
 </div>
+</a>
 
+<a href> 
 <div className="h-screen w-full   ">
  <div className="relative">
  <div className="absolute top-22 left-0 right-0  h-[550px]  w-full  max-sm:w-auto  max-sm:h-[144px] max-lg:w-auto  max-lg:h-[300px] max-xl:w-full  max-xl:h-[400px]    ">
@@ -70,7 +77,9 @@ const Carousels = () => {
 </div>
  </div>
 </div>
+</a>
 
+<a href> 
 <div className="h-screen w-full   ">
  <div className="relative">
  <div className="absolute top-22 left-0 right-0  h-[550px]  w-full  max-sm:w-auto  max-sm:h-[144px] max-lg:w-auto  max-lg:h-[300px] max-xl:w-full  max-xl:h-[400px]    ">
@@ -85,6 +94,8 @@ const Carousels = () => {
 </div>
  </div>
 </div>
+</a>
+
 
 </Carousel>
    </div>

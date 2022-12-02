@@ -23,39 +23,53 @@ const Search = ({ setIsSearchmodal }) => {
                 <li className="flex items-center justify-between p-1 hover:bg-primary transition-all px-2 cursor-pointer">
                   <div className="relative flex">
                     <Image
-                      src="/images/image-2.jpg"
+                     src="/images/1-Alize-süperlanamaxi.jpg"
                       alt="ss"
                       width={48}
                       height={48}
                     />
                   </div>
-                  <span className="font-bold"> good musıc</span>
-                  <span className="font-bold"> $100</span>
+                  <span className="font-bold"> yün</span>
+                  <span className="font-bold"> $10</span>
                 </li>
                 <li className="flex items-center justify-between p-1 hover:bg-primary transition-all px-2 cursor-pointer">
                   <div className="relative flex">
                     <Image
-                      src="/images/image-2.jpg"
+                     src="/images/2-Alize-diva.jpg"
                       alt="ss"
                       width={48}
                       height={48}
                     />
                   </div>
-                  <span className="font-bold"> good musıc</span>
-                  <span className="font-bold"> $100</span>
+                  <span className="font-bold"> yün</span>
+                  <span className="font-bold"> $10</span>
+                </li>
+
+                <li className="flex items-center justify-between p-1 hover:bg-primary transition-all px-2 cursor-pointer">
+                  <div className="relative flex">
+                    <Image
+                       src="/images/3-Bonbon.jpg"
+                      alt="ss"
+                      width={48}
+                      height={48}
+                    />
+                  </div>
+                  <span className="font-bold"> yün</span>
+                  <span className="font-bold"> $10</span>
                 </li>
                 <li className="flex items-center justify-between p-1 hover:bg-primary transition-all px-2 cursor-pointer">
                   <div className="relative flex">
                     <Image
-                      src="/images/image-2.jpg"
+                       src="/images/4-Alize-lanagold.jpg"
                       alt="ss"
                       width={48}
                       height={48}
                     />
                   </div>
-                  <span className="font-bold"> good musıc</span>
-                  <span className="font-bold"> $100</span>
+                  <span className="font-bold"> yün</span>
+                  <span className="font-bold"> $10</span>
                 </li>
+
               </ul>
               <button
               className="absolute  top-4 right-4"
