@@ -42,3 +42,7 @@ body {
 .carousel .carousel-status{ 
 @apply hidden
 }
+
+.carousel-root{
+  @apply h-[90px] md:h-[250px] lg:h-[350px] xl:h-[510px]
+}
