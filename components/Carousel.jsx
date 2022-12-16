@@ -1,15 +1,10 @@
-
 import Image from "next/image";
-import Slider from "react-slick";
 import { Carousel } from 'react-responsive-carousel';
 
 
 const Carousels = () => {
-
-
   return (
     <div>   
-
     <Carousel infiniteLoop autoPlay> 
 <a href> 
  <div className="h-screen w-full   ">

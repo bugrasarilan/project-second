@@ -2,47 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
-
 * {
   box-sizing: border-box;
 }
-
-/* sağdan soldan 30 px yukardan aşağıdan 8 px rounded=border-radius   */
-.btn-primary {   
+.btn-primary {
   @apply text-white px-[30px] py-[8px] rounded-3xl bg-primary cursor-pointer hover:opacity-70 transition-all disabled:opacity-50 disabled:cursor-not-allowed;
 }
-
 .carousel {
   @apply flex justify-center;
 }
-.control-arrow  { /* sağdan soldan slider imleci yüksekliği */
-  @apply h-[550px] max-sm:h-[145px] sm:h-[301px] lg:h-[400px] xl:h-[550px] ;
+.control-arrow {
+  /* sağdan soldan slider imleci yüksekliği */
+  @apply h-[550px] max-sm:h-[145px] sm:h-[301px] lg:h-[400px] xl:h-[550px];
 }
-
-.control-dots  { /* navigasyon noktalarının yüksekliği */
-  @apply top-32 sm:top-[284px] lg:top-[383px] xl:top-[540px] ;
-  
+.control-dots {
+  /* navigasyon noktalarının yüksekliği */
+  @apply top-32 sm:top-[284px] lg:top-[383px] xl:top-[540px];
 }
-
-
-
 .carousel .control-dots .dot {
-  @apply bg-secondary
+  @apply bg-secondary;
 }
-
-
-
-.carousel .carousel-status{ 
-@apply hidden
+.carousel .carousel-status {
+  @apply hidden;
 }
-
-.carousel-root{
-  @apply h-[90px] md:h-[250px] lg:h-[350px] xl:h-[510px]
+.carousel-root {
+  @apply h-[90px] md:h-[250px] lg:h-[350px] xl:h-[510px];
 }

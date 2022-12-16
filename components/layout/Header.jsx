@@ -62,7 +62,7 @@ const Header = () => {
 
 
           <a href="#" className="md:inline-block  ">
-            <button className="btn-primary"> Online Sipariş</button>
+            <button className="btn-primary"> Online </button>
           </a>
        
      
