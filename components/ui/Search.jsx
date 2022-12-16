@@ -5,7 +5,7 @@ import Image from "next/image";
 import { GiCancel } from "react-icons/gi";
 
 const Search = ({ setIsSearchmodal }) => {
-  // setIsSearchmodal headr'ın içinden props olarak yolladık ve burada kullandık
+  // setIsSearchmodal headr'ın içinden props olarak yolladım ve burada kullandık
   return (
     <div className="fixed top-0 left-0 w-screen h-screen z-50 after:content-[''] after:w-screen after:h-screen after:bg-white after:absolute after:top-0 after:left-0 after:opacity-60 grid place-content-center">
       <OutsideClikHandler onOutsideClick={() => setIsSearchmodal(false)}>
@@ -23,51 +23,51 @@ const Search = ({ setIsSearchmodal }) => {
                 <li className="flex items-center justify-between p-1 hover:bg-primary transition-all px-2 cursor-pointer">
                   <div className="relative flex">
                     <Image
-                     src="/images/1-Alize-süperlanamaxi.jpg"
+                     src="/images/ocean.jpeg"
                       alt="ss"
                       width={48}
                       height={48}
                     />
                   </div>
-                  <span className="font-bold"> yün</span>
-                  <span className="font-bold"> $10</span>
+                  <span className="font-bold">ocean </span>
+                  <span className="font-bold"> </span>
                 </li>
                 <li className="flex items-center justify-between p-1 hover:bg-primary transition-all px-2 cursor-pointer">
                   <div className="relative flex">
                     <Image
-                     src="/images/2-Alize-diva.jpg"
+                     src="/images/alaska.jpg"
                       alt="ss"
                       width={48}
                       height={48}
                     />
                   </div>
-                  <span className="font-bold"> yün</span>
-                  <span className="font-bold"> $10</span>
+                  <span className="font-bold">alaska </span>
+                  <span className="font-bold"> </span>
                 </li>
 
                 <li className="flex items-center justify-between p-1 hover:bg-primary transition-all px-2 cursor-pointer">
                   <div className="relative flex">
                     <Image
-                       src="/images/3-Bonbon.jpg"
+                       src="/images/ocean2.jpg"
                       alt="ss"
                       width={48}
                       height={48}
                     />
                   </div>
-                  <span className="font-bold"> yün</span>
-                  <span className="font-bold"> $10</span>
+                  <span className="font-bold"> ocean2</span>
+                  <span className="font-bold"> </span>
                 </li>
                 <li className="flex items-center justify-between p-1 hover:bg-primary transition-all px-2 cursor-pointer">
                   <div className="relative flex">
                     <Image
-                       src="/images/4-Alize-lanagold.jpg"
+                       src="/images/mountain.jpeg"
                       alt="ss"
                       width={48}
                       height={48}
                     />
                   </div>
-                  <span className="font-bold"> yün</span>
-                  <span className="font-bold"> $10</span>
+                  <span className="font-bold">mountain</span>
+                  <span className="font-bold"> </span>
                 </li>
 
               </ul>

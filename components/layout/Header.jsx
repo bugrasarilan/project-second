@@ -13,8 +13,8 @@ const Header = () => {
       <div className="container mx-auto text-white flex justify-between items-center h-full">
         <Logo />
         <nav
-          className={`sm:static absolute top-0 right-0     sm:w-auto sm:h-auto w-50 h-screen sm:text-white text-black sm:bg-transparent bg-white sm:flex hidden z-50  ${
-            isMenuModal === true && "!grid place-content-center opacity-90  bg-slate-200 hover:bg-slate-400"
+          className={`sm:static absolute top-0 right-0     sm:w-auto sm:h-auto w-200 h-screen sm:text-white text-black sm:bg-transparent bg-white sm:flex hidden z-50  ${
+            isMenuModal === true && "!grid place-content-center opacity-90   hover:bg-slate-400"
           }`}
         >
           <ul className="flex gap-x-2 sm:flex-row flex-col items-center">
@@ -76,3 +76,5 @@ const Header = () => {
 };
 
 export default Header;
+
+

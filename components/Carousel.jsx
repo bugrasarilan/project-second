@@ -17,7 +17,7 @@ const Carousels = () => {
  <div className="absolute top-22 left-0 right-0  h-[550px]  w-full  max-sm:w-auto  max-sm:h-[144px] max-lg:w-auto  max-lg:h-[300px] max-xl:w-full  max-xl:h-[400px]    ">
  <div className="relative h-full w-full  ">
  <Image 
-       src="/images/1-Alize-süperlanamaxi.jpg"
+       src="/images/ocean2.jpg"
        alt=""
        layout="fill"
        objectFit="cover"
@@ -34,7 +34,7 @@ const Carousels = () => {
  <div className="absolute top-22 left-0 right-0  h-[550px]  w-full  max-sm:w-auto  max-sm:h-[144px] max-lg:w-auto  max-lg:h-[300px] max-xl:w-full  max-xl:h-[400px]    ">
  <div className="relative h-full w-full  ">
    <Image
-       src="/images/2-Alize-diva.jpg"
+       src="/images/mountain.jpeg"
        alt=""
        layout="fill"
        objectFit="cover"
@@ -51,7 +51,7 @@ const Carousels = () => {
  <div className="absolute top-22 left-0 right-0  h-[550px]  w-full  max-sm:w-auto  max-sm:h-[144px] max-lg:w-auto  max-lg:h-[300px] max-xl:w-full  max-xl:h-[400px]    ">
  <div className="relative h-full w-full  ">
    <Image
-       src="/images/3-Bonbon.jpg"
+       src="/images/nature.jpg"
        alt=""
        layout="fill"
        objectFit="cover"
@@ -68,7 +68,7 @@ const Carousels = () => {
  <div className="absolute top-22 left-0 right-0  h-[550px]  w-full  max-sm:w-auto  max-sm:h-[144px] max-lg:w-auto  max-lg:h-[300px] max-xl:w-full  max-xl:h-[400px]    ">
  <div className="relative h-full w-full  ">
    <Image
-       src="/images/4-Alize-lanagold.jpg"
+       src="/images/ocean.jpeg"
        alt=""
        layout="fill"
        objectFit="cover"
@@ -85,7 +85,7 @@ const Carousels = () => {
  <div className="absolute top-22 left-0 right-0  h-[550px]  w-full  max-sm:w-auto  max-sm:h-[144px] max-lg:w-auto  max-lg:h-[300px] max-xl:w-full  max-xl:h-[400px]    ">
  <div className="relative h-full w-full  ">
    <Image
-       src="/images/5-Alize-cottongold.jpg"
+         src="/images/alaska.jpg"  
        alt=""
        layout="fill"
        objectFit="cover"
